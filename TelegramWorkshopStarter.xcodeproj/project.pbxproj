@@ -13,6 +13,7 @@
 		E1029205236CA3C400781B83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1029204236CA3C400781B83 /* Assets.xcassets */; };
 		E1029208236CA3C400781B83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1029207236CA3C400781B83 /* Preview Assets.xcassets */; };
 		E102920B236CA3C400781B83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1029209236CA3C400781B83 /* LaunchScreen.storyboard */; };
+		E1029213236CAD0E00781B83 /* Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1029212236CAD0E00781B83 /* Dialog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E1029207236CA3C400781B83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E102920A236CA3C400781B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E102920C236CA3C400781B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1029212236CAD0E00781B83 /* Dialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E10291FD236CA3C100781B83 /* TelegramWorkshopStarter */ = {
 			isa = PBXGroup;
 			children = (
+				E1029212236CAD0E00781B83 /* Dialog.swift */,
 				E10291FE236CA3C100781B83 /* AppDelegate.swift */,
 				E1029200236CA3C100781B83 /* SceneDelegate.swift */,
 				E1029202236CA3C100781B83 /* ContentView.swift */,
@@ -149,6 +152,7 @@
 				E10291FF236CA3C100781B83 /* AppDelegate.swift in Sources */,
 				E1029201236CA3C100781B83 /* SceneDelegate.swift in Sources */,
 				E1029203236CA3C100781B83 /* ContentView.swift in Sources */,
+				E1029213236CAD0E00781B83 /* Dialog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
