@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E10291FB236CA3C100781B83 /* TelegramWorkshopStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelegramWorkshopStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10291FB236CA3C100781B83 /* TelegramWorkshopFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelegramWorkshopFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E10291FE236CA3C100781B83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1029200236CA3C100781B83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E1029202236CA3C100781B83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		E10291F2236CA3C100781B83 = {
 			isa = PBXGroup;
 			children = (
-				E10291FD236CA3C100781B83 /* TelegramWorkshopStarter */,
+				E10291FD236CA3C100781B83 /* TelegramWorkshopFinal */,
 				E10291FC236CA3C100781B83 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		E10291FC236CA3C100781B83 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E10291FB236CA3C100781B83 /* TelegramWorkshopStarter.app */,
+				E10291FB236CA3C100781B83 /* TelegramWorkshopFinal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E10291FD236CA3C100781B83 /* TelegramWorkshopStarter */ = {
+		E10291FD236CA3C100781B83 /* TelegramWorkshopFinal */ = {
 			isa = PBXGroup;
 			children = (
 				E1029212236CAD0E00781B83 /* Dialog.swift */,
@@ -67,7 +67,7 @@
 				E102920C236CA3C400781B83 /* Info.plist */,
 				E1029206236CA3C400781B83 /* Preview Content */,
 			);
-			path = TelegramWorkshopStarter;
+			path = TelegramWorkshopFinal;
 			sourceTree = "<group>";
 		};
 		E1029206236CA3C400781B83 /* Preview Content */ = {
@@ -81,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E10291FA236CA3C100781B83 /* TelegramWorkshopStarter */ = {
+		E10291FA236CA3C100781B83 /* TelegramWorkshopFinal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E102920F236CA3C400781B83 /* Build configuration list for PBXNativeTarget "TelegramWorkshopStarter" */;
+			buildConfigurationList = E102920F236CA3C400781B83 /* Build configuration list for PBXNativeTarget "TelegramWorkshopFinal" */;
 			buildPhases = (
 				E10291F7236CA3C100781B83 /* Sources */,
 				E10291F8236CA3C100781B83 /* Frameworks */,
@@ -93,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = TelegramWorkshopStarter;
+			name = TelegramWorkshopFinal;
 			productName = TelegramWorkshopStarter;
-			productReference = E10291FB236CA3C100781B83 /* TelegramWorkshopStarter.app */;
+			productReference = E10291FB236CA3C100781B83 /* TelegramWorkshopFinal.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E10291F6236CA3C100781B83 /* Build configuration list for PBXProject "TelegramWorkshopStarter" */;
+			buildConfigurationList = E10291F6236CA3C100781B83 /* Build configuration list for PBXProject "TelegramWorkshopFinal" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E10291FA236CA3C100781B83 /* TelegramWorkshopStarter */,
+				E10291FA236CA3C100781B83 /* TelegramWorkshopFinal */,
 			);
 		};
 /* End PBXProject section */
@@ -289,16 +289,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"TelegramWorkshopStarter/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TelegramWorkshopFinal/Preview Content\"";
 				DEVELOPMENT_TEAM = RNXT6P5KC8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TelegramWorkshopStarter/Info.plist;
+				INFOPLIST_FILE = TelegramWorkshopFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.VladEliseev.TelegramWorkshopStarter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VladEliseev.TelegramWorkshopFinal;
+				PRODUCT_NAME = TelegramWorkshopFinal;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,16 +309,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"TelegramWorkshopStarter/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TelegramWorkshopFinal/Preview Content\"";
 				DEVELOPMENT_TEAM = RNXT6P5KC8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TelegramWorkshopStarter/Info.plist;
+				INFOPLIST_FILE = TelegramWorkshopFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.VladEliseev.TelegramWorkshopStarter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VladEliseev.TelegramWorkshopFinal;
+				PRODUCT_NAME = TelegramWorkshopFinal;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -327,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E10291F6236CA3C100781B83 /* Build configuration list for PBXProject "TelegramWorkshopStarter" */ = {
+		E10291F6236CA3C100781B83 /* Build configuration list for PBXProject "TelegramWorkshopFinal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E102920D236CA3C400781B83 /* Debug */,
@@ -336,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E102920F236CA3C400781B83 /* Build configuration list for PBXNativeTarget "TelegramWorkshopStarter" */ = {
+		E102920F236CA3C400781B83 /* Build configuration list for PBXNativeTarget "TelegramWorkshopFinal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1029210236CA3C400781B83 /* Debug */,
